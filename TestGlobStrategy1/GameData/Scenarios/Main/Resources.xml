@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Resources xmlns="resources.xsd">
+  <ResourceInfo>
+    <Name>Wood</Name>
+    <XCoord>200</XCoord>
+    <YCoord>200</YCoord>
+    <Owner>TestFaction</Owner>
+    <City>City</City>
+    <Workers>700</Workers>
+    <ResourceCount>10000</ResourceCount>
+    <Batche>200</Batche>
+  </ResourceInfo>
+</Resources>

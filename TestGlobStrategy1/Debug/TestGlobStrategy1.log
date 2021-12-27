@@ -1,0 +1,108 @@
+﻿  buildings.cpp
+  character.cpp
+D:\CPP Projects\TestGlobStrategy1\TestGlobStrategy1\character.cpp(1,10): warning C4067: непредвиденные лексемы за директивой препроцессора, требуется newline
+  cities.cpp
+D:\CPP Projects\TestGlobStrategy1\TestGlobStrategy1\sprites.h(27,27): warning C4244: аргумент: преобразование "int" в "float", возможна потеря данных
+D:\CPP Projects\TestGlobStrategy1\TestGlobStrategy1\sprites.h(27,20): warning C4244: аргумент: преобразование "int" в "float", возможна потеря данных
+D:\CPP Projects\TestGlobStrategy1\TestGlobStrategy1\texts.h(20,29): warning C4244: аргумент: преобразование "int" в "float", возможна потеря данных
+D:\CPP Projects\TestGlobStrategy1\TestGlobStrategy1\texts.h(20,26): warning C4244: аргумент: преобразование "int" в "float", возможна потеря данных
+  distrcits.cpp
+  factions.cpp
+  main.cpp
+D:\CPP Projects\TestGlobStrategy1\TestGlobStrategy1\sprites.h(27,27): warning C4244: аргумент: преобразование "int" в "float", возможна потеря данных
+D:\CPP Projects\TestGlobStrategy1\TestGlobStrategy1\sprites.h(27,20): warning C4244: аргумент: преобразование "int" в "float", возможна потеря данных
+D:\CPP Projects\TestGlobStrategy1\TestGlobStrategy1\texts.h(20,29): warning C4244: аргумент: преобразование "int" в "float", возможна потеря данных
+D:\CPP Projects\TestGlobStrategy1\TestGlobStrategy1\texts.h(20,26): warning C4244: аргумент: преобразование "int" в "float", возможна потеря данных
+D:\CPP Projects\TestGlobStrategy1\TestGlobStrategy1\main_menu.h(57,20): warning C4018: <: несоответствие типов со знаком и без знака
+D:\CPP Projects\TestGlobStrategy1\TestGlobStrategy1\main_menu.h(60,39): warning C4244: аргумент: преобразование "int" в "float", возможна потеря данных
+D:\CPP Projects\TestGlobStrategy1\TestGlobStrategy1\main_menu.h(60,36): warning C4244: аргумент: преобразование "int" в "float", возможна потеря данных
+D:\CPP Projects\TestGlobStrategy1\TestGlobStrategy1\main_menu.h(113,22): warning C4018: <: несоответствие типов со знаком и без знака
+D:\CPP Projects\TestGlobStrategy1\TestGlobStrategy1\main_menu.h(115,89): warning C4244: аргумент: преобразование "const T" в "T", возможна потеря данных
+          with
+          [
+              T=float
+          ]
+          and
+          [
+              T=int
+          ]
+D:\CPP Projects\TestGlobStrategy1\TestGlobStrategy1\main_menu.h(115,51): warning C4244: аргумент: преобразование "const T" в "T", возможна потеря данных
+          with
+          [
+              T=float
+          ]
+          and
+          [
+              T=int
+          ]
+D:\CPP Projects\TestGlobStrategy1\TestGlobStrategy1\main_menu.h(158,22): warning C4018: <: несоответствие типов со знаком и без знака
+D:\CPP Projects\TestGlobStrategy1\TestGlobStrategy1\create_campmap.h(30,21): warning C4018: <: несоответствие типов со знаком и без знака
+D:\CPP Projects\TestGlobStrategy1\TestGlobStrategy1\create_campmap.h(59,65): warning C4018: <: несоответствие типов со знаком и без знака
+D:\CPP Projects\TestGlobStrategy1\TestGlobStrategy1\create_campmap.h(61,131): warning C4018: <: несоответствие типов со знаком и без знака
+D:\CPP Projects\TestGlobStrategy1\TestGlobStrategy1\create_campmap.h(71,73): warning C4018: <: несоответствие типов со знаком и без знака
+D:\CPP Projects\TestGlobStrategy1\TestGlobStrategy1\create_campmap.h(73,151): warning C4018: <: несоответствие типов со знаком и без знака
+D:\CPP Projects\TestGlobStrategy1\TestGlobStrategy1\create_campmap.h(78,44): warning C4018: <: несоответствие типов со знаком и без знака
+D:\CPP Projects\TestGlobStrategy1\TestGlobStrategy1\create_campmap.h(100,16): warning C4244: =: преобразование "int" в "float", возможна потеря данных
+D:\CPP Projects\TestGlobStrategy1\TestGlobStrategy1\create_campmap.h(101,16): warning C4244: =: преобразование "int" в "float", возможна потеря данных
+D:\CPP Projects\TestGlobStrategy1\TestGlobStrategy1\create_campmap.h(106,57): warning C4018: <: несоответствие типов со знаком и без знака
+D:\CPP Projects\TestGlobStrategy1\TestGlobStrategy1\create_campmap.h(114,48): warning C4018: <: несоответствие типов со знаком и без знака
+D:\CPP Projects\TestGlobStrategy1\TestGlobStrategy1\create_campmap.h(121,59): warning C4018: <: несоответствие типов со знаком и без знака
+D:\CPP Projects\TestGlobStrategy1\TestGlobStrategy1\state_management_menu.h(138,26): warning C4018: <: несоответствие типов со знаком и без знака
+D:\CPP Projects\TestGlobStrategy1\TestGlobStrategy1\state_management_menu.h(148,26): warning C4018: <: несоответствие типов со знаком и без знака
+D:\CPP Projects\TestGlobStrategy1\TestGlobStrategy1\state_management_menu.h(158,26): warning C4018: <: несоответствие типов со знаком и без знака
+D:\CPP Projects\TestGlobStrategy1\TestGlobStrategy1\state_management_menu.h(168,26): warning C4018: <: несоответствие типов со знаком и без знака
+D:\CPP Projects\TestGlobStrategy1\TestGlobStrategy1\state_management_menu.h(183,26): warning C4018: <: несоответствие типов со знаком и без знака
+D:\CPP Projects\TestGlobStrategy1\TestGlobStrategy1\state_management_menu.h(193,26): warning C4018: <: несоответствие типов со знаком и без знака
+D:\CPP Projects\TestGlobStrategy1\TestGlobStrategy1\state_management_menu.h(203,26): warning C4018: <: несоответствие типов со знаком и без знака
+D:\CPP Projects\TestGlobStrategy1\TestGlobStrategy1\state_management_menu.h(213,26): warning C4018: <: несоответствие типов со знаком и без знака
+D:\CPP Projects\TestGlobStrategy1\TestGlobStrategy1\draw_city_ui.h(77,50): warning C4018: <: несоответствие типов со знаком и без знака
+D:\CPP Projects\TestGlobStrategy1\TestGlobStrategy1\draw_resource_ui.h(26,78): warning C4244: аргумент: преобразование "float" в "int", возможна потеря данных
+D:\CPP Projects\TestGlobStrategy1\TestGlobStrategy1\main.cpp(125,56): warning C4305: аргумент: усечение из "double" в "float"
+D:\CPP Projects\TestGlobStrategy1\TestGlobStrategy1\main.cpp(126,54): warning C4305: аргумент: усечение из "double" в "float"
+D:\CPP Projects\TestGlobStrategy1\TestGlobStrategy1\main.cpp(127,57): warning C4305: аргумент: усечение из "double" в "float"
+D:\CPP Projects\TestGlobStrategy1\TestGlobStrategy1\main.cpp(128,56): warning C4305: аргумент: усечение из "double" в "float"
+D:\CPP Projects\TestGlobStrategy1\TestGlobStrategy1\main.cpp(146,41): warning C4244: аргумент: преобразование "int" в "float", возможна потеря данных
+D:\CPP Projects\TestGlobStrategy1\TestGlobStrategy1\main.cpp(146,33): warning C4244: аргумент: преобразование "int" в "float", возможна потеря данных
+D:\CPP Projects\TestGlobStrategy1\TestGlobStrategy1\main.cpp(151,41): warning C4018: <: несоответствие типов со знаком и без знака
+D:\CPP Projects\TestGlobStrategy1\TestGlobStrategy1\main.cpp(158,21): warning C4018: <: несоответствие типов со знаком и без знака
+D:\CPP Projects\TestGlobStrategy1\TestGlobStrategy1\main.cpp(160,51): warning C4244: аргумент: преобразование "float" в "int", возможна потеря данных
+D:\CPP Projects\TestGlobStrategy1\TestGlobStrategy1\main.cpp(160,34): warning C4244: аргумент: преобразование "float" в "int", возможна потеря данных
+D:\CPP Projects\TestGlobStrategy1\TestGlobStrategy1\main.cpp(175,21): warning C4018: <: несоответствие типов со знаком и без знака
+D:\CPP Projects\TestGlobStrategy1\TestGlobStrategy1\main.cpp(184,21): warning C4018: <: несоответствие типов со знаком и без знака
+  objects.cpp
+D:\CPP Projects\TestGlobStrategy1\TestGlobStrategy1\sprites.h(27,27): warning C4244: аргумент: преобразование "int" в "float", возможна потеря данных
+D:\CPP Projects\TestGlobStrategy1\TestGlobStrategy1\sprites.h(27,20): warning C4244: аргумент: преобразование "int" в "float", возможна потеря данных
+D:\CPP Projects\TestGlobStrategy1\TestGlobStrategy1\objects.cpp(5,25): warning C4838: Преобразование из "float" в "int" требует сужающего преобразования.
+D:\CPP Projects\TestGlobStrategy1\TestGlobStrategy1\objects.cpp(5,25): warning C4244: инициализация: преобразование "float" в "int", возможна потеря данных
+D:\CPP Projects\TestGlobStrategy1\TestGlobStrategy1\objects.cpp(5,27): warning C4838: Преобразование из "float" в "int" требует сужающего преобразования.
+D:\CPP Projects\TestGlobStrategy1\TestGlobStrategy1\objects.cpp(5,27): warning C4244: инициализация: преобразование "float" в "int", возможна потеря данных
+  pugixml.cpp
+  resources.cpp
+D:\CPP Projects\TestGlobStrategy1\TestGlobStrategy1\sprites.h(27,27): warning C4244: аргумент: преобразование "int" в "float", возможна потеря данных
+D:\CPP Projects\TestGlobStrategy1\TestGlobStrategy1\sprites.h(27,20): warning C4244: аргумент: преобразование "int" в "float", возможна потеря данных
+D:\CPP Projects\TestGlobStrategy1\TestGlobStrategy1\resources.cpp(11,12): warning C4244: =: преобразование "int" в "float", возможна потеря данных
+D:\CPP Projects\TestGlobStrategy1\TestGlobStrategy1\resources.cpp(12,12): warning C4244: =: преобразование "int" в "float", возможна потеря данных
+  sprites.cpp
+D:\CPP Projects\TestGlobStrategy1\TestGlobStrategy1\sprites.h(27,27): warning C4244: аргумент: преобразование "int" в "float", возможна потеря данных
+D:\CPP Projects\TestGlobStrategy1\TestGlobStrategy1\sprites.h(27,20): warning C4244: аргумент: преобразование "int" в "float", возможна потеря данных
+D:\CPP Projects\TestGlobStrategy1\TestGlobStrategy1\sprites.cpp(11,24): warning C4244: аргумент: преобразование "int" в "float", возможна потеря данных
+D:\CPP Projects\TestGlobStrategy1\TestGlobStrategy1\sprites.cpp(11,21): warning C4244: аргумент: преобразование "int" в "float", возможна потеря данных
+D:\CPP Projects\TestGlobStrategy1\TestGlobStrategy1\sprites.cpp(21,22): warning C4244: аргумент: преобразование "int" в "float", возможна потеря данных
+D:\CPP Projects\TestGlobStrategy1\TestGlobStrategy1\sprites.cpp(21,19): warning C4244: аргумент: преобразование "int" в "float", возможна потеря данных
+  texts.cpp
+D:\CPP Projects\TestGlobStrategy1\TestGlobStrategy1\texts.h(20,29): warning C4244: аргумент: преобразование "int" в "float", возможна потеря данных
+D:\CPP Projects\TestGlobStrategy1\TestGlobStrategy1\texts.h(20,26): warning C4244: аргумент: преобразование "int" в "float", возможна потеря данных
+D:\CPP Projects\TestGlobStrategy1\TestGlobStrategy1\texts.cpp(11,20): warning C4244: аргумент: преобразование "int" в "float", возможна потеря данных
+D:\CPP Projects\TestGlobStrategy1\TestGlobStrategy1\texts.cpp(11,17): warning C4244: аргумент: преобразование "int" в "float", возможна потеря данных
+  tiles.cpp
+D:\CPP Projects\TestGlobStrategy1\TestGlobStrategy1\tiles.cpp(5,24): warning C4244: аргумент: преобразование "int" в "float", возможна потеря данных
+D:\CPP Projects\TestGlobStrategy1\TestGlobStrategy1\tiles.cpp(5,21): warning C4244: аргумент: преобразование "int" в "float", возможна потеря данных
+  Создание кода...
+D:\CPP Projects\TestGlobStrategy1\TestGlobStrategy1\objects.cpp(6): warning C4172: возвращение адреса локальной или временной переменной : coordinates
+D:\CPP Projects\TestGlobStrategy1\TestGlobStrategy1\time.h(14): warning C4172: возвращение адреса локальной или временной переменной : hours_and_days
+D:\CPP Projects\TestGlobStrategy1\TestGlobStrategy1\factions.cpp(22): warning C4172: возвращение адреса локальной или временной переменной : governement
+  shell.c
+  sqlite3.c
+  Создание кода...
+LINK : warning LNK4067: неоднозначная точка входа; выбрана "mainCRTStartup"
+  TestGlobStrategy1.vcxproj -> D:\CPP Projects\TestGlobStrategy1\Debug\TestGlobStrategy1.exe

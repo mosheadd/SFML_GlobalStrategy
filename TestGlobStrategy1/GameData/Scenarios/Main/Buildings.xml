@@ -1,0 +1,17 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Buildings xmlns="buildings.xsd">
+  <BuildingInfo>
+    <Name>TestBuilding1</Name>
+    <Description>TestDescr</Description>
+    <Type>Economic</Type>
+    <FactionsCanBuild>[TestFaction2]</FactionsCanBuild>
+    <Work>[1,10,Free People]</Work>
+  </BuildingInfo>
+  <BuildingInfo>
+    <Name>TestBuilding2</Name>
+    <Description>TestDescr2</Description>
+    <Type>Military</Type>
+    <FactionsCanBuild>[TestFaction2]</FactionsCanBuild>
+    <Work>[1,TestUnit]</Work>
+  </BuildingInfo>
+</Buildings>

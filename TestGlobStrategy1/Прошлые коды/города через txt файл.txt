@@ -1,0 +1,146 @@
+ifstream file_cities("D:\\P2\\GameData\\Maps\\Main\\cities.txt");
+	int count;
+	str = "";
+	while (!file_cities.eof())
+	{
+		getline(file_cities, str);
+		if (str[0] != '0')
+		{
+			Cities city;
+			count = 0;
+			for (int i = 0; i < str.size(); i++)
+			{
+				string buf = "";
+				while (str[i] != ',' && i < str.size())
+				{
+					buf += str[i];
+					i++;
+				}
+				if (count == 0) city.name = buf;
+				else if (count == 1) city.x = stof(buf);
+				else if (count == 2) city.y = stof(buf);
+				else if (count == 3) city.faction_owner = buf;
+				else if (count == 4) city.peasants = stoi(buf);
+				else if (count == 5) city.workers = stoi(buf);
+				else if (count == 6) city.citizens = stoi(buf);
+				else if (count == 7) city.nobles = stoi(buf);
+				else if (count == 8) city.priests = stoi(buf);
+				else if (count == 9) city.birth_rate = stoi(buf);
+				else if (count == 10) city.death_rate = stoi(buf);
+				else if (count == 11) city.food = stoi(buf);
+				else if (count == 12) city.type = buf;
+				count++;
+				cout << buf << " ";
+			}
+			cout << endl;
+			city.population = city.peasants + city.workers + city.citizens + city.nobles + city.priests;
+			city.growth = city.birth_rate - city.death_rate;
+			citiesList.push_back(city);
+		}
+	}
+	file_cities.close();
+	cout << "----------TEST_CITIES_OF_THIS_MAP----------" << endl;
+	ifstream file_cities_test("D:\\P2\\GameData\\Maps\\Main\\cities_test.txt");
+	str = "";
+	count = 1;
+	while (!file_cities_test.eof())
+	{
+		Cities city;
+		while (true)
+		{
+			getline(file_cities_test, str);
+			if (str == ";;;;;;;;;;;;;;;;;;;;;;;;;;;;")
+			{
+				cout << str << endl;
+				city.type = "town";
+				citiesList2.push_back(city);
+				break;
+			}
+			if (count == 1)
+			{
+				city.name = str;
+				cout << str << endl;
+			}
+			else if (count == 2)
+			{
+				int countCoords = 1;
+				for (int i = 0; i < str.size(); i++)
+				{
+					string buf = "";
+					while (str[i] != ',' && i < str.size())
+					{
+						buf += str[i];
+						i++;
+					}
+					if (countCoords == 1) city.x = stof(buf);
+					else if (countCoords == 2) city.y = stof(buf);
+					cout << buf << " ";
+					countCoords++;
+				}
+				cout << endl;
+			}
+			else if (count == 3)
+			{
+				city.faction_owner = str;
+				cout << str << endl;
+			}
+			else
+			{
+				if (str == "region")
+				{
+					Districts region;
+					int countRegion = 1;
+					getline(file_cities_test, str);
+					for (int i = 0; i < str.size(); i++)
+					{
+						string buf = "";
+						while (str[i] != ',' && i < str.size())
+						{
+							buf += str[i];
+							i++;
+						}
+						if (countRegion == 1) region.peasants = stoi(buf);
+						else if (countRegion == 2) region.workers = stoi(buf);
+						else if (countRegion == 3) region.nobles = stoi(buf);
+						else if (countRegion == 4) region.priests = stoi(buf);
+						else if (countRegion == 5) region.food = stoi(buf);	
+						countRegion++;
+						cout << buf << " ";
+					}
+					cout << endl;
+					region.population = region.peasants + region.workers + region.nobles + region.priests;
+					cout << region.population << endl;
+					city.districts.push_back(region);
+				}
+				else if (str == "district")
+				{
+					Districts district;
+					int countDistrict = 1;
+					getline(file_cities_test, str);
+					for (int i = 0; i < str.size(); i++)
+					{
+						string buf = "";
+						while (str[i] != ',' && i < str.size())
+						{
+							buf += str[i];
+							i++;
+						}
+						if (countDistrict == 1) district.workers = stoi(buf);
+						else if (countDistrict == 2) district.citizens = stoi(buf);
+						else if (countDistrict == 3) district.nobles = stoi(buf);
+						else if (countDistrict == 4) district.priests = stoi(buf);
+						else if (countDistrict == 5) district.food = stoi(buf);
+						countDistrict++;
+						cout << buf << " ";
+					}
+					cout << endl;
+					district.population = district.workers + district.citizens + district.nobles + district.priests;
+					cout << district.population << endl;
+					city.districts.push_back(district);
+				}
+			}
+			count++;
+		}
+
+	}
+	file_cities_test.close();

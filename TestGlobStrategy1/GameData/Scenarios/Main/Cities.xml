@@ -1,0 +1,23 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Cities xmlns="cities.xsd">
+  <CityInfo>
+    <Name>City</Name>
+    <XCoord>100.0</XCoord>
+    <YCoord>100.0</YCoord>
+    <FactionOwner>TestFaction2</FactionOwner>
+    <Buildings>[TestBuilding1,TestBuilding2,TestBuilding1]</Buildings>
+    <Population>[Free People=1000,Slaves=50]</Population>
+    <Food>100</Food>
+    <Level>Town</Level>
+  </CityInfo>
+  <CityInfo>
+    <Name>City2</Name>
+    <XCoord>250.0</XCoord>
+    <YCoord>300.0</YCoord>
+    <FactionOwner>TestFaction</FactionOwner>
+    <Buildings>[TestBuilding1,TestBuilding2]</Buildings>
+    <Population>[Free People=1000,Slaves=50]</Population>
+    <Food>100</Food>
+    <Level>City</Level>
+  </CityInfo>
+</Cities>

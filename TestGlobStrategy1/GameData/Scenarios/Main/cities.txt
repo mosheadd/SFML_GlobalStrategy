@@ -1,0 +1,3 @@
+0.Name,1.X,2.Y.3.Faction,4.Peasants,5.Workers,6.citizens,7.Nobles,8.Priests,9.Birth rate,10.Death rate,11.Food,12.Type
+test_city,160,50,TestFaction,700,250,300,50,5,50,20,100,city
+test_city2,500,500,TestFaction2,600,150,140,20,3,50,40,100,town

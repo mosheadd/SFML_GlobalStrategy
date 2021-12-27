@@ -1,0 +1,160 @@
+const int HEIGHT = 20;
+const int WIDTH = 20;
+std::string Map[HEIGHT] = {
+	"11111111111111111111",
+	"10000000000000000001",
+	"10000000000000000001",
+	"10000000000000000001",
+	"10000000000000000001",
+	"10000000000000000001",
+	"10000000000000000001",
+	"10000000000000000001",
+	"10000000000000000001",
+	"10000000000000000001",
+	"10000000000000000001",
+	"10000000000000000001",
+	"10000000000000000001",
+	"10000000000000000001",
+	"10000000000000000001",
+	"10000000000000000001",
+	"10000000000000000001",
+	"10000000000000000001",
+	"10000000000000000001",
+	"11111111111111111111",
+};
+////////////////Мини меню\\\\\\\\\\\\\\\\\\\\\\
+while (mini_menu_b)
+{
+	cont.setFillColor(Color::Black);
+	vyiti.setFillColor(Color::Black);
+	k_mini_menu = 0;
+	mini_menu.draw(window, 350, 300, false, false);
+	cont.setPosition(mini_menu.X + 5, mini_menu.Y + 5);
+	vyiti.setPosition(mini_menu.X + 5, mini_menu.Y + 175);
+	window.draw(cont);
+	window.draw(vyiti);
+	if (IntRect(850, 380, 210, 30).contains(Mouse::getPosition(window))) { cont.setFillColor(Color::Red);  k_mini_menu = 1; }
+	if (IntRect(850, 550, 210, 30).contains(Mouse::getPosition(window))) { vyiti.setFillColor(Color::Red);  k_mini_menu = 2; }
+	if (Mouse::isButtonPressed(Mouse::Left)) 
+	{
+		if (k_mini_menu == 1) { mini_menu_b = false; }
+	}
+}
+-----------------------------------------------------------
+if (mini_menu_b)
+			{
+				mini_menu.draw(window, 350, 300, false, false);
+				cont.setPosition(mini_menu.X + 5, mini_menu.Y + 5);
+				vyiti.setPosition(mini_menu.X + 3, mini_menu.Y + 175);
+				window.draw(cont);
+				window.draw(vyiti);
+				if (IntRect(850, 380, 210, 30).contains(Mouse::getPosition(window))) { cont.setFillColor(Color::Red);  k_mini_menu = 1; }
+				else { cont.setFillColor(Color::Black); k_mini_menu = 0; }
+				if (IntRect(850, 590, 210, 30).contains(Mouse::getPosition(window))) { vyiti.setFillColor(Color::Red);  k_mini_menu = 2; }
+				else { vyiti.setFillColor(Color::Black); k_mini_menu = 0; }
+				if (Mouse::isButtonPressed(Mouse::Left)) 
+				{
+					if (k_mini_menu == 1) { mini_menu_b = false; }
+	}
+}
+//////////////////////////
+rivers[riv_tile_x][riv_tile_y] = "1";
+			if (dir == "") napr = 1 + rand() % 4;
+			else napr = 1 + rand() % 3;
+			if (dir == "")
+			{
+				switch (napr)
+				{
+				case 1:
+					riv_tile_y--;
+					dir = "north";
+				case 2:
+					riv_tile_x--;
+					dir = "west";
+				case 3:
+					riv_tile_y++;
+					dir = "south";
+				case 4:
+					riv_tile_x++;
+					dir = "east";
+				}
+			}
+			else if (dir == "north")
+			{
+				switch (napr)
+				{
+				case 1:
+					riv_tile_y--;
+				case 2:
+					riv_tile_x--;
+					dir = "west";
+				case 3:
+					riv_tile_x++;
+					dir = "east";
+				}
+			}
+			else if (dir == "west")
+			{
+				switch (napr)
+				{
+				case 1:
+					riv_tile_x--;
+				case 2:
+					riv_tile_x++;
+					dir = "south";
+				case 3:
+					riv_tile_y--;
+					dir = "north";
+				}
+			}
+			else if (dir == "south")
+			{
+				switch (napr)
+				{
+				case 1:
+					riv_tile_y++;
+				case 2:
+					riv_tile_x--;
+					dir = "west";
+				case 3:
+					riv_tile_x++;
+					dir = "east";
+				}
+			}
+			else
+			{
+				switch (napr)
+				{
+				case 1:
+					riv_tile_x++;
+				case 2:
+					riv_tile_y--;
+					dir = "north";
+				case 3:
+					riv_tile_y++;
+					dir = "south";
+				}
+			}
+////////////////тайлы до своего класса\\\\\\\\\\\\\\\
+/*Image grass_image, water_image, gora_image, forest_image, snow_image, ce_image;
+	grass_image.loadFromFile("D:\\P\\Tiles\\grass.png");
+	water_image.loadFromFile("D:\\P\\Tiles\\water.png");
+	gora_image.loadFromFile("D:\\P\\Tiles\\gora.png");
+	forest_image.loadFromFile("D:\\P\\Tiles\\forest.png");
+	snow_image.loadFromFile("D:\\P\\Tiles\\snow.png");
+	ce_image.loadFromFile("D:\\P\\Sprites\\city_entering.png");
+	Texture grass_texture, water_texture, gora_texture, forest_texture, snow_texture, ce_texture;
+	grass_texture.loadFromImage(grass_image);
+	water_texture.loadFromImage(water_image);
+	gora_texture.loadFromImage(gora_image);
+	forest_texture.loadFromImage(forest_image);
+	snow_texture.loadFromImage(snow_image);
+	Sprite grass, water, gora, forest, sneg, city_entering;
+	grass.setTexture(grass_texture);
+	water.setTexture(water_texture);
+	forest.setTexture(forest_texture);
+	sneg.setTexture(snow_texture);
+	grass.setTextureRect(IntRect(0, 0, 32, 32));
+	water.setTextureRect(IntRect(0, 0, 32, 32));
+	gora.setTexture(gora_texture);
+	city_entering.setTexture(ce_texture);*/

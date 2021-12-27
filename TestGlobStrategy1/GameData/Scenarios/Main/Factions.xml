@@ -1,0 +1,17 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Factions xmlns="factions.xsd">
+  <FactionInfo>
+    <Name>TestFaction</Name>
+    <Culture>TestCulture</Culture>
+    <StartMoney>1000</StartMoney>
+    <FormOfGovernement>Monarchy</FormOfGovernement>
+    <CommunalSystem>Slavery</CommunalSystem>
+  </FactionInfo>
+  <FactionInfo>
+    <Name>TestFaction2</Name>
+    <Culture>TestCulture2</Culture>
+    <StartMoney>50</StartMoney>
+    <FormOfGovernement>Chiefdom</FormOfGovernement>
+    <CommunalSystem>Primitive-clan</CommunalSystem>
+  </FactionInfo>
+</Factions>

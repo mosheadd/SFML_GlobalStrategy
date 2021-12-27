@@ -1,0 +1,33 @@
+int count;
+while (!file_factions.eof())
+	{
+		count = 0;
+		getline(file_factions, str);
+		if (str[0] != '0')
+		{
+			Faction faction;
+			for (int i = 0; i < str.size(); i++)
+			{
+				string buf = "";
+				while (str[i] != ',' && i < str.size())
+				{
+					buf += str[i];
+					i++;
+				}
+				if (count == 0) faction.name = buf;
+				else if (count == 1) faction.culture = buf;
+				else if (count == 2) faction.money = stoi(buf);
+				else if (count == 3) faction.form_of_governement = buf;				
+				else if (count == 4) faction.communal_system = buf;				
+				count++;
+				cout << buf << " ";
+			}
+			cout << endl;
+			faction.peasants_taxes = 5;
+			faction.priests_taxes = 5;
+			faction.citizens_taxes = 5;
+			faction.quitrent = 10;
+			factionsList.push_back(faction);
+		}
+	}
+	file_factions.close();
